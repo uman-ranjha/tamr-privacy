@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tamr Privacy Policy</title>
+<style>
+  :root { --bg: #f7f4ec; --ink: #1d2b22; --muted: #5c6b63; --line: #ddd6c6; --accent: #0f5a57; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f2f2e; --ink: #f3ead2; --muted: #a9c6c1; --line: #2a6361; --accent: #e0b75a; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 34px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { margin: 0 0 12px; }
+  .meta { color: var(--muted); margin-bottom: 28px; }
+  .tldr { border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  a { color: var(--accent); }
+  code { font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Tamr Privacy Policy</h1>
+<p class="meta">Tamr – Prayer Times &amp; Salah Reminder (Chrome extension) · Effective 9 November 2026</p>
+
+<div class="tldr">
+<p><b>In short:</b> Tamr has no accounts, no analytics, no ads and no servers of its own. Your settings and prayer checklist stay in your own Chrome storage. Tamr never reads the pages you visit. The only data that leaves your computer is a rough location (about 1&nbsp;km) or the city name you type, sent to look up your city's name, and only so your prayer times are right.</p>
+</div>
+
+<h2>What Tamr stores, and where</h2>
+<p>Everything Tamr keeps is saved with Chrome's own extension storage on your device. If Chrome Sync is turned on in your browser, Chrome syncs some of it between the computers signed into your Chrome profile. That syncing is done by Google as part of Chrome, not by Tamr.</p>
+<table>
+<tr><th>Data</th><th>Why</th><th>Where</th></tr>
+<tr><td>Your location (latitude and longitude), place name and country</td><td>To calculate prayer times and pick the usual calculation method for your country</td><td>Chrome sync storage</td></tr>
+<tr><td>Your settings (calculation method, Asr timing, language, reminder options)</td><td>To work the way you set it up</td><td>Chrome sync storage</td></tr>
+<tr><td>Which prayers and reminders you've checked off, per day (kept for 6 months)</td><td>To show today's checklist and avoid reminding you about something you've done</td><td>Chrome sync storage</td></tr>
+<tr><td>New tab choices: the name for the greeting, your shortcuts, what's shown</td><td>To show your new tab page</td><td>Chrome sync storage</td></tr>
+<tr><td>Sites where you asked Tamr not to appear</td><td>So he stays off those sites</td><td>Chrome sync storage</td></tr>
+<tr><td>Small working notes (a reminder waiting to be shown, when your location was last checked, the hide-and-seek count)</td><td>So reminders and the new tab work smoothly</td><td>This computer only</td></tr>
+</table>
+<p>Uninstalling Tamr removes all of this from your browser.</p>
+
+<h2>What leaves your computer</h2>
+<p>Tamr contacts exactly two outside services, both free and without accounts or keys:</p>
+<ul>
+<li><b>BigDataCloud</b> (<code>api.bigdatacloud.net</code>): when Tamr finds your location, it sends your coordinates <b>rounded to 2 decimal places (about 1&nbsp;km)</b> and your language, and gets back the name of your city and country. <a href="https://www.bigdatacloud.com/privacy">BigDataCloud privacy policy</a>.</li>
+<li><b>Open-Meteo</b> (<code>geocoding-api.open-meteo.com</code>): when you search for a city in Settings, it sends the text you typed and your language, and gets back matching places. <a href="https://open-meteo.com/en/terms#privacy">Open-Meteo privacy information</a>.</li>
+</ul>
+<p>Nothing else is sent anywhere by Tamr. In particular, Tamr does not send your prayer checklist, your settings, your browsing, or any identifier.</p>
+<p>A few things happen through Chrome or only when you click them:</p>
+<ul>
+<li>Searching from the new tab uses your browser's default search engine, through Chrome.</li>
+<li>Shortcut icons come from Chrome's own saved site icons on your computer.</li>
+<li>Links such as "Read the surah" open Quran.com only when you click them.</li>
+</ul>
+
+<h2>Your location</h2>
+<p>Tamr asks Chrome for your location to calculate prayer times, and (if "Update my location automatically" is on in Settings) checks it again at most every few hours from the new tab page, so the times follow you when you travel. You can turn that off, or search for your city instead, at any time in Tamr's Settings. You can also block location access for Tamr in Chrome's site settings.</p>
+
+<h2>The pages you visit</h2>
+<p>To remind you, Tamr walks onto the page you're looking at. When a reminder is due, Tamr adds a small character and card to the current tab. That code draws inside its own isolated area and <b>never reads the page's content</b>. The only thing it looks at is the site's address, to skip sites where you asked it not to appear. When no reminder is due, Tamr adds nothing to your pages.</p>
+
+<h2>What Tamr doesn't do</h2>
+<ul>
+<li>No accounts, sign-ins, analytics, tracking, ads, or crash reporting.</li>
+<li>No selling or sharing of your data with anyone, for any purpose.</li>
+<li>No use of your data for anything other than Tamr's single purpose: reminding you to pray on time and showing prayer times.</li>
+<li>No remote code: everything Tamr runs is included in the extension.</li>
+</ul>
+<p>Tamr's use of information follows the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy</a>, including its Limited Use requirements.</p>
+
+<h2>Children</h2>
+<p>Tamr is not directed at children under 13 and does not knowingly collect information from them. It collects no personal information beyond what's described above.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date. If Tamr ever needs to send any new kind of data, the policy will say so before that version is released.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+</main>
+</body>
+</html>
